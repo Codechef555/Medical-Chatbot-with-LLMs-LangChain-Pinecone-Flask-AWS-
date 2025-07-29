@@ -15,10 +15,10 @@ load_dotenv()
 
 PINECONE_API_KEY=os.environ.get('PINECONE_API_KEY')
 OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
-
+GROQ_API_KEY= os.environ.get('GROQ_API_KEY')
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-
+os.environ['GROQ_API_KEY'] = GROQ_API_KEY
 
 embeddings = download_hugging_face_embeddings()
 
@@ -30,7 +30,7 @@ docsearch = PineconeVectorStore.from_existing_index(
 )
 
 retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":3})
-os.environ['GROQ_API_KEY'] = ('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')
+
 chatModel = ChatOpenAI(
         openai_api_base="https://api.groq.com/openai/v1",
         openai_api_key=os.environ['GROQ_API_KEY'],

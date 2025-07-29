@@ -13,7 +13,6 @@ OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
 
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-os.environ['GROQ_API_KEY'] = ('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')
 
 extracted_data=load_pdf_file(data='data/')
 filter_data = filter_to_minimal_docs(extracted_data)
