@@ -36,7 +36,7 @@ Deployment : AWS  (Elastic Beanstalk, EC2, etc.)
 Environment Management : pip
 
 
-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS-
+Project structure:
 
 ├── 📄 app.py                  # Main Flask application entry point
 
