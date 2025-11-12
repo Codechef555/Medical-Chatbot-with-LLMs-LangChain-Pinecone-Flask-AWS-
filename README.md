@@ -1,7 +1,5 @@
 # Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS-
-https://img.shields.io/badge/License-Apache%25202.0-blue.svg
-https://img.shields.io/badge/Framework-Flask-green.svg
-https://img.shields.io/badge/VectorDB-Pinecone-yellow.svg
+
 
 An intelligent, retrieval-augmented medical chatbot designed to provide informative and context-aware responses. This project leverages the power of Large Language Models (LLMs) through a sophisticated pipeline built with LangChain, a Pinecone vector database for efficient information retrieval, a user-friendly Flask web interface, and is designed for deployment on AWS.
 
@@ -39,6 +37,7 @@ Environment Management : pip
 
 
 Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS-
+
 ├── 📄 app.py                  # Main Flask application entry point
 
 ├── 📄 store_index.py          # Script to process data and store it in Pinecone
@@ -96,4 +95,3 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 
 👨‍💻 Developer
 Built with ❤️ by Md.Karaamathullah sheriff - AI engineer.
-
