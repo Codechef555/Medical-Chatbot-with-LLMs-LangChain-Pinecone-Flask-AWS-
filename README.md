@@ -6,34 +6,34 @@ An intelligent, retrieval-augmented medical chatbot designed to provide informat
 
 🌟 Features
 
-🤖 Intelligent Q&A: Leverages state-of-the-art LLMs for generating human-like, medically-informed responses.
+- 🤖 Intelligent Q&A: Leverages state-of-the-art LLMs for generating human-like, medically-informed responses.
 
-🔍 Semantic Search: Uses Pinecone to perform efficient and accurate similarity search on a custom medical knowledge base.
+- 🔍 Semantic Search: Uses Pinecone to perform efficient and accurate similarity search on a custom medical knowledge base.
 
-💬 Web Interface: A clean and intuitive chat interface built with Flask and HTML/CSS/JS.
+- 💬 Web Interface: A clean and intuitive chat interface built with Flask and HTML/CSS/JS.
 
-🔄 Context Awareness: The LangChain framework allows the chatbot to maintain context and provide coherent, multi-turn conversations.
+- 🔄 Context Awareness: The LangChain framework allows the chatbot to maintain context and provide coherent, multi-turn conversations.
 
-☁️ Cloud-Ready: Designed with AWS deployment in mind for scalability and reliability.
+- ☁️ Cloud-Ready: Designed with AWS deployment in mind for scalability and reliability.
 
 
 🛠️ Tech Stack
 
 Component	with Technology
 
-Backend Framework	: Flask
+- Backend Framework	: Flask
 
-Language Model Orchestration : LangChain
+- Language Model Orchestration : LangChain
 
-Vector Database :	Pinecone
+- Vector Database :	Pinecone
 
-Large Language Model (LLM)	: (e.g., OpenAI GPT, Anthropic Claude, or others) [To be specified]
+- Large Language Model (LLM)	: (e.g., OpenAI GPT, Anthropic Claude, or others) [To be specified]
 
-Frontend :	HTML, CSS, JavaScript (Jinja2 Templates)
+- Frontend :	HTML, CSS, JavaScript (Jinja2 Templates)
 
-Deployment : AWS  (Elastic Beanstalk, EC2, etc.)
+- Deployment : AWS  (Elastic Beanstalk, EC2, etc.)
 
-Environment Management : pip
+- Environment Management : pip
 
 
 Project structure:
@@ -80,11 +80,11 @@ Project structure:
 
 This project is configured for deployment on AWS. Common methods include:
 
-AWS Elastic Beanstalk: For easy, managed deployment of the Flask application.
+- AWS Elastic Beanstalk: For easy, managed deployment of the Flask application.
 
-Amazon EC2: For more control over the server environment.
+- Amazon EC2: For more control over the server environment.
 
-Ensure all environment variables are correctly set in your AWS environment configuration.
+- Ensure all environment variables are correctly set in your AWS environment configuration.
 
 
 📄 License
@@ -94,4 +94,4 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 
 
 👨‍💻 Developer
-Built with ❤️ by Md.Karaamathullah sheriff - AI engineer.
+Built with ❤️ by Md.Karaamathullah sheriff - Full stack AI engineer.
