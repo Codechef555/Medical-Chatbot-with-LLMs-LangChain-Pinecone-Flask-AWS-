@@ -4,7 +4,7 @@
 An intelligent, retrieval-augmented medical chatbot designed to provide informative and context-aware responses. This project leverages the power of Large Language Models (LLMs) through a sophisticated pipeline built with LangChain, a Pinecone vector database for efficient information retrieval, a user-friendly Flask web interface, and is designed for deployment on AWS.
 
 
-🌟 Features
+**🌟 Features**
 
 - 🤖 Intelligent Q&A: Leverages state-of-the-art LLMs for generating human-like, medically-informed responses.
 
@@ -17,7 +17,7 @@ An intelligent, retrieval-augmented medical chatbot designed to provide informat
 - ☁️ Cloud-Ready: Designed with AWS deployment in mind for scalability and reliability.
 
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Component	with Technology
 
@@ -36,7 +36,7 @@ Component	with Technology
 - Environment Management : pip
 
 
-Project structure:
+**Project structure:**
 
 ├── 📄 app.py                  # Main Flask application entry point
 
@@ -61,7 +61,7 @@ Project structure:
 └── 📄 LICENSE, README.md
 
 
-🔧 How It Works
+**🔧 How It Works**
 
 1.The application follows a Retrieval-Augmented Generation (RAG) pattern:
 
@@ -76,7 +76,7 @@ Project structure:
 6.Intelligent Output: The LLM generates a final, context-rich answer, which is sent back and displayed to the user in the web interface.
 
 
-🌐 Deployment
+**🌐 Deployment**
 
 This project is configured for deployment on AWS. Common methods include:
 
@@ -87,9 +87,9 @@ This project is configured for deployment on AWS. Common methods include:
 - Ensure all environment variables are correctly set in your AWS environment configuration.
 
 
-📄 License
+**📄 License**
 
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0.
 
 
 
